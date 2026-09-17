@@ -316,8 +316,9 @@ Rather than focusing only on predictive accuracy, the project explores how volat
 
 This project is for **educational and research purposes only**. The analysis does not constitute financial advice, an investment recommendation, or a claim of profitability or safety of any trading strategy.
 
-## Author
+##  Author
 
 **Diksha Pandey**
+
 M.Sc. Industrial Engineering & Operations Research
 Indian Institute of Technology Bombay
