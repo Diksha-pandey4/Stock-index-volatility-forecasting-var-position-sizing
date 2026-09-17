@@ -205,6 +205,26 @@ The position-sizing exercise is illustrative and is not intended to represent a 
 
 ---
 
+## Key Results
+
+The models were evaluated on a chronological held-out test set using RMSE and QLIKE.
+
+| Model                |       RMSE |      QLIKE |
+| -------------------- | ---------: | ---------: |
+| GARCH(1,1)-Student-t |     0.1176 | **1.4470** |
+| Random Forest        | **0.1111** |     1.7097 |
+| HAR-RV               |     0.1127 |     1.7126 |
+
+### Interpretation
+
+* **Random Forest achieved the lowest RMSE**, indicating the smallest average prediction error under the RMSE criterion.
+* **GARCH achieved the lowest QLIKE**, making it the selected model for the subsequent risk-management illustration.
+* The difference between the models highlights that model performance depends on the evaluation criterion rather than there being a universally best model.
+* The selected volatility forecast was subsequently used to illustrate 95% Student-t VaR and volatility-targeted position sizing.
+
+> **Important:** These results come from a single chronological train/test split and should not be interpreted as evidence of live trading performance.
+
+
 ## Model Comparison
 
 The project evaluates the different approaches using out-of-sample forecasting performance.
